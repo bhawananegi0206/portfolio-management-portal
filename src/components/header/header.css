@@ -1,0 +1,29 @@
+.header {
+  margin-bottom: 0;
+  align-items: center;
+  background-color: transparent;
+  height: 5em;
+}
+
+.header__logo {
+  width: 350px;
+  height: 100px;
+  background-image: url(/images/nestle-logo-png-transparent.png);
+  background-size: 100%;
+  float: left;
+  margin: 5px 20px 0 62px;
+  background-repeat: no-repeat;
+}
+
+.header__title {
+  color: #000;
+  font-size: 25px;
+  margin-top: 21px;
+  font-family: cursive;
+  }
+
+@media only screen and (min-width: 768px) {
+  .header__title {
+  float: left;
+  }
+}
